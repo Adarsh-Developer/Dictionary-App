@@ -93,7 +93,7 @@ html, body{
 
 .word__definition {
   margin: 30px 5px 10px 5px;
-  border-bottom: 3px solid rgba(238, 130, 238, 0.496);
+  border-bottom: 3px solid rgba(65, 105, 225, 0.612);
   padding-bottom: 5px;
   display: none;
 }
@@ -105,7 +105,7 @@ html, body{
   box-shadow: 2px 2px 4px #6c6c6c30,
               inset 1px 1px 2.5px #6c6c6c30;
   display: none;        
-  border-radius: 100px;
+  /* border-radius: 100px; */
 }
 .word__example::before{
   content: "";
@@ -115,6 +115,13 @@ html, body{
   transform: translateY(-50%);
   width: 100%;
   height: 100%;
-  border-left: 5px solid violet;
-  border-radius: 100px;
+  border-left: 5px solid rgba(65, 105, 225, 0.612);
+  /* border-radius: 100px; */
+}
+
+@media (max-width: 500px) {
+  .main__container{
+    width: 100%;
+    margin: 0 8px 0 11px;
+  }
 }
